@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  section{
+    width:100%;
+    margin-bottom:5px;  
+   }
+   #form{
+       margin-top:160px;
+       position:relative;
+       display:flex;
+       flex-direction: row;
+       
+       }
+  .formulario{
+       width: 100%;
+       background:#ffffff;
+       padding: 50px;
+       border: 2px solid #0c0c0c;
+       margin-right:5%;
+       border-radius: 60px;
+       margin-bottom: 50px;
+  }
+  .texto{
+      height:80%;
+      width: 50%;
+      padding:5%;
+      margin:6%;
+      border: 2px dotted #000000;
+      border-radius: 50%;
+      
+  }
+  .texto h1{
+     font-family:'Courier New', Courier, monospace; 
+     font-weight:600; 
+     color:#FFFFFF;
+  }
+  .texto p{
+     font-size:18px; 
+     text-align:center; 
+     color:#FFFFFF;
+     }
+  .texto:hover{
+      background:#84b5c4;;
+      border: 2px double #FFFFFF;
+     }
+     .modal {
+        font-family: 'Sans';
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .modal-content {
+        background-color: #ecd5e2;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #f5c0c3;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 700px;
+        position: relative;
+    }
+    .close {
+        color: #8f5a66;
+        font-size: 24px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    
+    .close:hover {
+        color: #6b3942;
+    }
+    
+    section {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;
+    }
+    
+    h1 {
+        color: #1a495e;
+        margin-top: 1px; 
+    }
+    
+    p {
+        color: #25181f; 
+        margin-top: 1px; 
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px; 
+    }
+    
+    a {
+        color: #ad7583;
+        text-decoration: none;
+        margin-top: 1px;
+    }
+    
+    a:hover {
+        color: #8c5260; 
+    }
+    
+  
